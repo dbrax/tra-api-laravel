@@ -1,0 +1,63 @@
+{
+    "name": "epmnzava/tra-api-laravel",
+    "description": "Laravel to easily integrate with tra ( TANZANIA REVENUE AUTHORITY )",
+    "keywords": [
+        "epmnzava",
+        "tra-api-laravel",
+        "tra",
+        "laravel tra",
+        "z-report",
+        "efd"
+    ],
+    "homepage": "https://github.com/epmnzava/tra-api-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emmanuel Paul Mnzava",
+            "email": "epmnzava@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Storewid",
+            "email": "info@storewid.com",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epmnzava\\TraApiLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Epmnzava\\TraApiLaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Epmnzava\\TraApiLaravel\\TraApiLaravelServiceProvider"
+            ],
+            "aliases": {
+                "TraApiLaravel": "Epmnzava\\TraApiLaravel\\TraApiLaravelFacade"
+            }
+        }
+    }
+}

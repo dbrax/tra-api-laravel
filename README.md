@@ -14,33 +14,33 @@ You can install the package via composer:
 composer require epmnzava/tra-api-laravel
 ```
 
-## Usage
+# Usage
 
-# Token Request
-
-```php
-// coming soon
-```
-
-# EFD REGISTRATION
+### Token Request
 
 ```php
 // coming soon
 ```
 
-# EFD RECEIPT POSTING
+### EFD REGISTRATION
 
 ```php
 // coming soon
 ```
 
-# EFD Z-REPORT POSTING WITH CRON (TASK SCHEDULE)
+### EFD RECEIPT POSTING
 
 ```php
 // coming soon
 ```
 
-# EFD RECEIPT VERIFICATION
+### EFD Z-REPORT POSTING WITH CRON (TASK SCHEDULE)
+
+```php
+// coming soon
+```
+
+### EFD RECEIPT VERIFICATION
 
 ```php
 // coming soon

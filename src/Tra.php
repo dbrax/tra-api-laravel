@@ -40,6 +40,5 @@ class Tra
     {
         //check if token is valid
 
-        return "I am executing the receipt now ";
     }
 }

@@ -19,31 +19,32 @@ composer require epmnzava/tra-api-laravel
 ### Token Request
 
 ```php
-// coming soon
+// how to request and handle tokens
 ```
 
 ### EFD REGISTRATION
 
 ```php
-// coming soon
+// how to register your efd / and get your vfd number
 ```
 
-### EFD RECEIPT POSTING
+### EFD RECEIPT / INVOICE POSTING
 
 ```php
-// coming soon
+// how to post your receipt or invoice to tra using api
 ```
 
 ### EFD Z-REPORT POSTING WITH CRON (TASK SCHEDULE)
 
 ```php
-// coming soon
+// how to schedule z report via api
 ```
 
 ### EFD RECEIPT VERIFICATION
 
 ```php
-// coming soon
+// how to verify a given efd receipt ( checking if i'ts valid)
+
 ```
 
 ### Testing

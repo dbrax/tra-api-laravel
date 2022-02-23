@@ -2,7 +2,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/epmnzava/tra-api-laravel.svg?style=flat-square)](https://packagist.org/packages/epmnzava/tra-api-laravel)
 ![GitHub Actions](https://github.com/epmnzava/tra-api-laravel/actions/workflows/main.yml/badge.svg)
 
-General Overview On TRA API 
+General Overview Of TRA API 
 
 <img src="https://github.com/dbrax/tra-api-laravel/blob/main/assets/Screenshot%202022-02-23%20at%2020.44.42.png"/>
 

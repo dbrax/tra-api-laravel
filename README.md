@@ -5,6 +5,7 @@
 ![GitHub Actions](https://github.com/dbrax/tra-api-laravel/actions/workflows/main.yml/badge.svg)
 
 ## General Overview Of TRA API 🚀
+
 <img src="https://github.com/dbrax/tra-api-laravel/blob/main/assets/Screenshot%202022-02-23%20at%2020.44.42.png"/>
 
 ## Installation
